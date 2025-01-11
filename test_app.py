@@ -14,7 +14,7 @@ st.set_page_config(page_title="Chat With Multiple PDF" , page_icon="📜")
 st.header("ChatDocs AI – Conversational AI for your Documents")
 
 st.sidebar.title('Enter API Key here')
-api_key=st.sidebar.text_input("Enter Google Gemini API Key")
+api_key=st.sidebar.text_input("Enter Google Gemini API Key" , type="password")
 
 st.sidebar.write("Don't have an API key? Click the button below")
 
