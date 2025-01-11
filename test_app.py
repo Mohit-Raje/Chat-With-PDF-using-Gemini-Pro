@@ -10,8 +10,8 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 
 
-st.set_page_config("Chat With Multiple PDF")
-st.header("Chat with pdf")
+st.set_page_config(page_title="Chat With Multiple PDF" , page_icon="📜")
+st.header("ChatDocs AI – Conversational AI for your Documents")
 
 st.sidebar.title('Enter API Key here')
 api_key=st.sidebar.text_input("Enter Google Gemini API Key")
