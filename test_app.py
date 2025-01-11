@@ -112,7 +112,41 @@ with st.sidebar:
             st.success("Done")
 
 
-            
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            z-index: 100;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer img {
+            width: 30px;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+    </style>
+    <div class="footer">
+        <strong>CopyRight © 2025 Developed by Mohit Raje</strong>
+        <a href="https://github.com/Mohit-Raje" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+    
             
     
     
