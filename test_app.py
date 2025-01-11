@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 
 
 st.set_page_config("Chat With Multiple PDF")
-st.header("Chain with pdf")
+st.header("Chat with pdf")
 
 st.sidebar.title('Enter API Key here')
 api_key=st.sidebar.text_input("Enter Google Gemini API Key")
