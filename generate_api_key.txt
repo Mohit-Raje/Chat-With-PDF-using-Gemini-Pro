@@ -1,0 +1,17 @@
+Hey , I Mohit Raje developer of this application 
+
+Here are the steps to generate your own Google Gemini API Key
+
+Step1: Go to Google AI Studio :: https://aistudio.google.com/prompts/new_chat
+
+Step2: Click on Get API Key 
+
+Step3: Click on Create API Key 
+
+Step4: If asked for the project then click on "My First Project" in google cloud and click on Create API Key in existing project 
+
+Step5: Once the API key is generated save the API Key 
+
+For better understanding : Go to
+https://support-for-generating-app-gemini-api-key-frrw8bu76odpj9n9xwuy.streamlit.app/
+
